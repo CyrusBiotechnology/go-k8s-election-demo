@@ -1,7 +1,6 @@
 package main
 
 import (
-	//"context"
 	"flag"
 	"os"
 	"path/filepath"
@@ -67,6 +66,7 @@ func main() {
 		OnStartedLeading: func(stop <-chan struct{}) {
 			// leaderelection will log the event
 			// TODO do master work
+			// Block until done leading
 			<-stop
 			glog.Info("stopped leading")
 		},
@@ -91,8 +91,6 @@ func main() {
 		Callbacks:     callbacks,
 	})
 
-	// Exit gracefully from many signals. Doesn't currently seem to affect behavior
-	// ctx := utils.SigContext()
+	// Start election
 	le.Run()
-	glog.Errorf("exiting...")
 }

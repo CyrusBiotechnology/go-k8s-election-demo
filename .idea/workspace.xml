@@ -3,8 +3,39 @@
   <component name="ChangeListManager">
     <list default="true" id="35dc35c8-6fc4-4c76-aca3-1d9f575b2a8d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gopkg.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gopkg.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmd/k8s-election-demo/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/k8s-election-demo/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/k8s/util.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/k8s/util.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apimachinery/pkg/api/resource/generated.proto" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/k8s.io/apimachinery/pkg/api/resource/generated.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apimachinery/pkg/api/resource/quantity.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/k8s.io/apimachinery/pkg/api/resource/quantity.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apimachinery/pkg/apis/meta/v1/generated.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/k8s.io/apimachinery/pkg/apis/meta/v1/generated.pb.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apimachinery/pkg/apis/meta/v1/generated.proto" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/k8s.io/apimachinery/pkg/apis/meta/v1/generated.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apimachinery/pkg/apis/meta/v1/meta.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/k8s.io/apimachinery/pkg/apis/meta/v1/meta.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apimachinery/pkg/apis/meta/v1/register.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/k8s.io/apimachinery/pkg/apis/meta/v1/register.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apimachinery/pkg/apis/meta/v1/types.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/k8s.io/apimachinery/pkg/apis/meta/v1/types.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apimachinery/pkg/apis/meta/v1/types_swagger_doc_generated.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/k8s.io/apimachinery/pkg/apis/meta/v1/types_swagger_doc_generated.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apimachinery/pkg/apis/meta/v1/zz_generated.deepcopy.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/k8s.io/apimachinery/pkg/apis/meta/v1/zz_generated.deepcopy.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apimachinery/pkg/apis/meta/v1beta1/zz_generated.deepcopy.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/k8s.io/apimachinery/pkg/apis/meta/v1beta1/zz_generated.deepcopy.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apimachinery/pkg/runtime/codec.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/k8s.io/apimachinery/pkg/runtime/codec.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apimachinery/pkg/runtime/conversion.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/k8s.io/apimachinery/pkg/runtime/conversion.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apimachinery/pkg/runtime/doc.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/k8s.io/apimachinery/pkg/runtime/doc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apimachinery/pkg/runtime/embedded.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/k8s.io/apimachinery/pkg/runtime/embedded.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apimachinery/pkg/runtime/error.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/k8s.io/apimachinery/pkg/runtime/error.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apimachinery/pkg/runtime/extension.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/k8s.io/apimachinery/pkg/runtime/extension.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apimachinery/pkg/runtime/helper.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/k8s.io/apimachinery/pkg/runtime/helper.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apimachinery/pkg/runtime/interfaces.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/k8s.io/apimachinery/pkg/runtime/interfaces.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apimachinery/pkg/runtime/schema/group_version.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/k8s.io/apimachinery/pkg/runtime/schema/group_version.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apimachinery/pkg/runtime/scheme.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/k8s.io/apimachinery/pkg/runtime/scheme.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apimachinery/pkg/runtime/serializer/json/json.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/k8s.io/apimachinery/pkg/runtime/serializer/json/json.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apimachinery/pkg/runtime/serializer/versioning/versioning.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/k8s.io/apimachinery/pkg/runtime/serializer/versioning/versioning.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apimachinery/pkg/runtime/zz_generated.deepcopy.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/k8s.io/apimachinery/pkg/runtime/zz_generated.deepcopy.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apimachinery/pkg/util/mergepatch/util.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/k8s.io/apimachinery/pkg/util/mergepatch/util.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apimachinery/pkg/util/naming/from_stack.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apimachinery/pkg/util/net/http.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/k8s.io/apimachinery/pkg/util/net/http.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apimachinery/pkg/util/strategicpatch/OWNERS" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/k8s.io/apimachinery/pkg/util/strategicpatch/OWNERS" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apimachinery/pkg/util/strategicpatch/patch.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/k8s.io/apimachinery/pkg/util/strategicpatch/patch.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apimachinery/pkg/util/validation/field/errors.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/k8s.io/apimachinery/pkg/util/validation/field/errors.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/k8s.io/apimachinery/pkg/watch/zz_generated.deepcopy.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/k8s.io/apimachinery/pkg/watch/zz_generated.deepcopy.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,14 +46,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.go" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cmd/k8s-election-demo/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="40" column="36" lean-forward="true" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
-              <folding>
-                <element signature="e#14#106#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-958">
+              <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -48,11 +76,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gopkg.lock" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Gopkg.lock" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gopkg.lock">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="328" column="54" selection-start-line="328" selection-start-column="54" selection-end-line="328" selection-end-column="54" />
+            <state relative-caret-position="198">
+              <caret line="223" column="12" selection-start-line="223" selection-start-column="12" selection-end-line="223" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -61,7 +89,7 @@
         <entry file="file://$PROJECT_DIR$/vendor/k8s.io/client-go/kubernetes/scheme/register.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
-              <caret line="98" column="35" selection-start-line="98" selection-start-column="35" selection-end-line="98" selection-end-column="35" />
+              <caret line="96" column="35" selection-start-line="96" selection-start-column="35" selection-end-line="96" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -69,8 +97,8 @@
       <file leaf-file-name="leaderelection.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vendor/k8s.io/client-go/tools/leaderelection/leaderelection.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="119" column="5" selection-start-line="119" selection-start-column="5" selection-end-line="119" selection-end-column="5" />
+            <state relative-caret-position="162">
+              <caret line="205" column="23" lean-forward="true" selection-start-line="205" selection-start-column="23" selection-end-line="205" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -101,15 +129,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="960">
               <caret line="69" column="52" selection-start-line="69" selection-start-column="52" selection-end-line="69" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="signals.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pkg/utils/signals.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="10" column="15" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -146,8 +165,8 @@
         <option value="$PROJECT_DIR$/pkg/utils/signals.go" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/pkg/k8s/util.go" />
-        <option value="$PROJECT_DIR$/cmd/k8s-election-demo/main.go" />
         <option value="$PROJECT_DIR$/Gopkg.lock" />
+        <option value="$PROJECT_DIR$/cmd/k8s-election-demo/main.go" />
       </list>
     </option>
   </component>
@@ -241,7 +260,7 @@
       <go_parameters value="-i" />
       <parameters value="-logtostderr" />
       <envs>
-        <env name="POD_NAME" value="test-1" />
+        <env name="POD_NAME" value="test-goland" />
         <env name="POD_NAMESPACE" value="default" />
       </envs>
       <kind value="PACKAGE" />
@@ -294,9 +313,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
           <caret line="62" column="53" selection-start-line="62" selection-start-column="53" selection-end-line="62" selection-end-column="53" />
-          <folding>
-            <element signature="e#14#106#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -362,20 +378,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/k8s.io/client-go/tools/leaderelection/leaderelection.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="119" column="5" selection-start-line="119" selection-start-column="5" selection-end-line="119" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/k8s.io/client-go/kubernetes/scheme/register.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="98" column="35" selection-start-line="98" selection-start-column="35" selection-end-line="98" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pkg/k8s/util.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="122">
@@ -393,13 +395,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cmd/k8s-election-demo/main.go">
+    <entry file="file://$PROJECT_DIR$/vendor/k8s.io/client-go/discovery/unstructured.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="40" column="36" lean-forward="true" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
-          <folding>
-            <element signature="e#14#106#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="960">
+          <caret line="69" column="52" selection-start-line="69" selection-start-column="52" selection-end-line="69" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="86" column="5" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/k8s.io/client-go/tools/leaderelection/leaderelection.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="205" column="23" lean-forward="true" selection-start-line="205" selection-start-column="23" selection-end-line="205" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/k8s.io/client-go/kubernetes/scheme/register.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="96" column="35" selection-start-line="96" selection-start-column="35" selection-end-line="96" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gopkg.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="223" column="12" selection-start-line="223" selection-start-column="12" selection-end-line="223" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -413,17 +440,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/k8s.io/client-go/discovery/unstructured.go">
+    <entry file="file://$PROJECT_DIR$/cmd/k8s-election-demo/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="69" column="52" selection-start-line="69" selection-start-column="52" selection-end-line="69" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gopkg.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="328" column="54" selection-start-line="328" selection-start-column="54" selection-end-line="328" selection-end-column="54" />
+        <state relative-caret-position="-958">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
         </state>
       </provider>
     </entry>
