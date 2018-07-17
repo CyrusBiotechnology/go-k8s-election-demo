@@ -7,7 +7,6 @@ import (
 	"time"
 
 	"github.com/CyrusBiotechnology/go-k8s-election-demo/pkg/k8s"
-	//"github.com/CyrusBiotechnology/go-k8s-election-demo/pkg/utils"
 	"github.com/golang/glog"
 	apiv1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
