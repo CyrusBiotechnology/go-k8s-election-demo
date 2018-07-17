@@ -1,14 +1,14 @@
 package main
 
 import (
-	"context"
+	//"context"
 	"flag"
 	"os"
 	"path/filepath"
 	"time"
 
 	"github.com/CyrusBiotechnology/go-k8s-election-demo/pkg/k8s"
-	"github.com/CyrusBiotechnology/go-k8s-election-demo/pkg/utils"
+	//"github.com/CyrusBiotechnology/go-k8s-election-demo/pkg/utils"
 	"github.com/golang/glog"
 	apiv1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
@@ -34,7 +34,11 @@ func main() {
 
 	// Get a kubernetes client
 	config, err := clientcmd.BuildConfigFromFlags("", *kubeconfig)
-	client, err := clientset.NewForConfig(config)
+	if err != nil {
+		panic(err)
+	}
+	print(config)
+	client := clientset.NewForConfigOrDie(config)
 
 	broadcaster := record.NewBroadcaster()
 
@@ -60,10 +64,11 @@ func main() {
 
 	// Events from Kubernetes
 	callbacks := leaderelection.LeaderCallbacks{
-		OnStartedLeading: func(ctx context.Context) {
+		OnStartedLeading: func(stop <-chan struct{}) {
 			// leaderelection will log the event
 			// TODO do master work
-			ctx.Done()
+			<-stop
+			glog.Info("stopped leading")
 		},
 		OnStoppedLeading: func() {
 			// leaderelection will log the event
@@ -87,7 +92,7 @@ func main() {
 	})
 
 	// Exit gracefully from many signals. Doesn't currently seem to affect behavior
-	ctx := utils.SigContext()
-	le.Run(ctx)
+	// ctx := utils.SigContext()
+	le.Run()
 	glog.Errorf("exiting...")
 }
